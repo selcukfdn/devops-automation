@@ -1,6 +1,6 @@
 ---
 - name: List available PowerVC Images
-  hosts: localhost
+  hosts: powervc.dc13
   tasks:
     - name: Retrieve list of all AIX images
       os_image_info:
