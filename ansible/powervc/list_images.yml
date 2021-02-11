@@ -1,6 +1,5 @@
 ---
 - name: List available PowerVC Images
-  hosts: localhost
   tasks:
     - name: Retrieve list of all AIX images
       openstack.cloud.os_image_info:
